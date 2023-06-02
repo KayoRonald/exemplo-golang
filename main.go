@@ -21,7 +21,7 @@ func main() {
 	fmt.Scan(&num2)
   
   result := calc.Muilt(num1, num2)
-	fmt.Printf("Olá, %v. Sua multiplicação entre %v x %v: %v \n", nome,num1, num2, result)
+	fmt.Printf("Olá, %v. Sua multiplicação entre %v x %v = %v \n", nome,num1, num2, result)
 }
 
 // func calc(num1 int, num2 int) int{
